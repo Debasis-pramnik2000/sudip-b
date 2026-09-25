@@ -51,7 +51,7 @@ function PhotoPage({
           <div className="polaroid-image">
 
             <img
-              src="/images/bp3.jpg"
+              src="/images/np1.jpg"
               alt="Birthday person"
             />
 

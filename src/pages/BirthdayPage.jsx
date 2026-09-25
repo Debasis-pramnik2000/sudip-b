@@ -17,7 +17,7 @@ import Navigation from "../components/Navigation";
 const lyrics = [
   "Happy", "Birthday", "to", "You",
   "Happy", "Birthday", "to", "You",
-  "Happy", "Birthday", "Dear", "Bipasa",
+  "Happy", "Birthday", "Dear", "Sudip",
   "Happy", "Birthday", "to", "You!",
   "🎉", "🎂", "🎁", "🎈"
 ];
@@ -187,13 +187,13 @@ function BirthdayPage({ nextPage, previousPage }) {
           transition={{ duration: 0.8, delay: 0.3 }}
           style={{ color: '#ff6b6b', fontSize: '2.5rem', marginTop: '-10px' }}
         >
-          🎉 Bipasa! 🎉
+          🎉 Sudip! 🎉
         </motion.h2>
 
         <p>
           Today is a little more beautiful
           because it celebrates
-          <strong> YOU, Bipasa! 💖</strong>
+          <strong> YOU, Sudip! 💖</strong>
         </p>
 
         {/* Current Lyric Display */}
@@ -271,7 +271,7 @@ function BirthdayPage({ nextPage, previousPage }) {
             animate={{ opacity: 1, y: 0 }}
             style={styles.lyricsBox}
           >
-            <h4 style={{ color: '#fff', marginBottom: '10px' }}>🎵 Happy Birthday Bipasa 🎵</h4>
+            <h4 style={{ color: '#fff', marginBottom: '10px' }}>🎵 Happy Birthday Sudip 🎵</h4>
             {lyrics.map((word, index) => (
               <span
                 key={index}

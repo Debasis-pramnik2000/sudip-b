@@ -228,7 +228,7 @@ function FinalPage({
           }}
         >
           <img
-            src="/images/bp2.jpg"
+            src="/images/np1.jpg"
             alt="Birthday"
           />
         </motion.div>
@@ -263,20 +263,14 @@ function FinalPage({
           transition={{
             delay: 1.4,
           }}
-        >
-          You are truly special. ❤️
-        </motion.div>
-
-        <button
+        > You are truly special. ❤️</motion.div>
+         <button
           className="restart-button"
           onClick={() => {
             window.location.reload();
           }}
-        >
-          <FaRedo />
-          Read Again
+        ><FaRedo />Read Again
         </button>
-
       </div>
 
     </Page>

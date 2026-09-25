@@ -10,17 +10,17 @@ import Navigation from "../components/Navigation";
 
 const photos = [
   {
-    image: "/images/bp7.jpg",
+    image: "/images/np3.jpg",
     title: "Beautiful Moment",
     rotate: -5,
   },
   {
-    image: "/images/bp4.jpg",
+    image: "/images/np4.jpg",
     title: "Sweet Memory",
     rotate: 4,
   },
   {
-    image: "/images/bp1.jpg",
+    image: "/images/np2.jpg",
     title: "One To Remember",
     rotate: -3,
   },
