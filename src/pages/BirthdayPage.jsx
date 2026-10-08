@@ -17,7 +17,7 @@ import Navigation from "../components/Navigation";
 const lyrics = [
   "Happy", "Birthday", "to", "You",
   "Happy", "Birthday", "to", "You",
-  "Happy", "Birthday", "Dear", "Sudip",
+  "Happy", "Birthday", "Dear", "Sonu",
   "Happy", "Birthday", "to", "You!",
   "🎉", "🎂", "🎁", "🎈"
 ];
@@ -187,13 +187,13 @@ function BirthdayPage({ nextPage, previousPage }) {
           transition={{ duration: 0.8, delay: 0.3 }}
           style={{ color: '#ff6b6b', fontSize: '2.5rem', marginTop: '-10px' }}
         >
-          🎉 Sudip! 🎉
+          🎉 Sonu! 🎉
         </motion.h2>
 
         <p>
           Today is a little more beautiful
           because it celebrates
-          <strong> YOU, Sudip! 💖</strong>
+          <strong> YOU, Sonu! 💖</strong>
         </p>
 
         {/* Current Lyric Display */}
@@ -288,7 +288,7 @@ function BirthdayPage({ nextPage, previousPage }) {
         )}
 
         <div style={styles.statusText}>
-          {isPlaying ? '🎵 Happy Birthday Bipasa!' : '🎂 Click Play to Celebrate!'}
+          {isPlaying ? '🎵 Happy Birthday sonu!' : '🎂 Click Play to Celebrate!'}
         </div>
 
       </div>

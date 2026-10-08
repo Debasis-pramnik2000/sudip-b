@@ -111,7 +111,7 @@ function MessagePage({
             <FaHeart />
           </div>
 
-          <span>Dear Sudip,</span>
+          <span>Dear Sonu,</span>
 
           <p>
             {text}
