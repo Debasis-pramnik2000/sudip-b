@@ -19,7 +19,7 @@ function MessagePage({
   const [open, setOpen] = useState(false);
 
   const message =
-    " Finally the birthday arrived. I pray this birthday feels your life with happiness and full of joy.wishing a very very happy birthday  Sudip 🎉🎉 🤍";
+    " Finally the birthday arrived. I pray this birthday feels your life with happiness and full of joy.wishing a very very happy birthday  Sonu 🎉🎉 🤍";
 
   const [text, setText] = useState("");
 
